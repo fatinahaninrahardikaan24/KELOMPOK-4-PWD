@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+header{
+    width:100%;
+    background:#0b3d91;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+header h2{
+    color:white;
+    font-size:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:30px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffd447;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(135deg,#0b3d91,#2196f3);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:65px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    width:70%;
+    font-size:22px;
+    line-height:35px;
+}
+
+.btn{
+    margin-top:40px;
+    display:inline-block;
+    padding:18px 45px;
+    background:white;
+    color:#0b3d91;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffd447;
+    transform:translateY(-5px);
+}
+
+.about{
+    width:85%;
+    max-width:1000px;
+    margin:100px auto;
+    text-align:center;
+}
+
+.about h2{
+    font-size:45px;
+    margin-bottom:30px;
+    color:#0b3d91;
+}
+
+.about p{
+    line-height:35px;
+    font-size:20px;
+}
+
+.card-section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-bottom:100px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#0b3d91;
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:28px;
+    color:#666;
+}
+
+footer{
+    background:#0b3d91;
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:18px;
+}
+
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    margin:10px;
+    display:inline-block;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    width:95%;
+    font-size:18px;
+}
+
+.about h2{
+    font-size:32px;
+}
+
+}
