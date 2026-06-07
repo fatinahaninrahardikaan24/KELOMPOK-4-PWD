@@ -1,17 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Jurnal</title>
-</head>
-<body>
+@extends('layouts.app')
 
-<h1>Direktori Jurnal</h1>
+@section('content')
 
-<p>
-Daftar jurnal ilmiah yang tersedia di IAST Institute.
-</p>
+<section class="about">
+    <h2>Daftar Jurnal</h2>
+</section>
 
-<a href="/">Kembali ke Home</a>
+<div class="table-container jurnal-page">
 
-</body>
-</html>
+<table>
+    <tr>
+        <th>Judul</th>
+        <th>Tahun</th>
+        <th>Aksi</th>
+    </tr>
+
+    <tr>
+        <td>Machine Learning Research</td>
+        <td>2025</td>
+        <td><button>Download</button></td>
+    </tr>
+
+    <tr>
+        <td>Cyber Security Study</td>
+        <td>2024</td>
+        <td><button>Download</button></td>
+    </tr>
+
+</table>
+
+</div>
+
+@endsection
