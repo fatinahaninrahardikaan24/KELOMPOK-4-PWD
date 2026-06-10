@@ -2,25 +2,39 @@
 
 @section('content')
 
-<section class="about">
-    <h2>Publikasi Akademik</h2>
+<section class="hero">
+    <h1>Peluang Akademik & Karier</h1>
+
+    <p>
+        Temukan berbagai peluang untuk mengembangkan diri,
+        mulai dari beasiswa, magang, kompetisi, hingga kegiatan volunteer.
+    </p>
 </section>
 
 <section class="card-section">
 
     <div class="card">
-        <h3>Artificial Intelligence in Education</h3>
-        <p>Penelitian tentang penerapan AI dalam sistem pembelajaran modern.</p>
+        <h3>Program Beasiswa Nasional</h3>
+        <p>
+            Informasi berbagai beasiswa yang dapat membantu
+            mahasiswa dalam melanjutkan pendidikan dan mengembangkan potensi diri.
+        </p>
     </div>
 
     <div class="card">
-        <h3>Digital Transformation</h3>
-        <p>Perubahan digital di dunia akademik dan industri.</p>
+        <h3>Peluang Magang</h3>
+        <p>
+            Temukan kesempatan magang di berbagai perusahaan
+            dan organisasi untuk menambah pengalaman profesional.
+        </p>
     </div>
 
     <div class="card">
-        <h3>Smart Campus</h3>
-        <p>Konsep kampus berbasis teknologi dan IoT.</p>
+        <h3>Kompetisi & Volunteer</h3>
+        <p>
+            Ikuti kompetisi, kegiatan sosial, dan program volunteer
+            untuk meningkatkan keterampilan serta memperluas jaringan.
+        </p>
     </div>
 
 </section>
