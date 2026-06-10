@@ -3,77 +3,38 @@
 @section('content')
 
 <section class="hero">
-
-    <h1>Welcome to IAST Institute</h1>
-
-    <p>
-        Pusat informasi organisasi, jurnal ilmiah,
-        publikasi akademik, beasiswa, dana riset,
-        dan katalog buku digital.
-    </p>
-
-    <a href="/publikasi" class="btn">
-        Explore Now
-    </a>
-
-</section>
-
-<section class="about">
-
-    <h2>Tentang IAST Institute</h2>
+    <h1>Tentang MiseEdu Hub</h1>
 
     <p>
-        IAST Institute merupakan pusat informasi akademik
-        yang menyediakan berbagai layanan seperti jurnal,
-        publikasi ilmiah, informasi beasiswa, dana riset,
-        katalog buku, serta berita akademik yang dapat
-        diakses oleh mahasiswa, dosen, dan peneliti.
+        MiseEdu Hub adalah platform edukasi digital yang menyediakan
+        artikel, program pengembangan diri, peluang akademik,
+        serta informasi karier untuk mahasiswa dan pelajar Indonesia.
+    </p>
+</section>
+
+<div class="container">
+
+   <div class="info-card">
+
+    <h2>Visi Kami</h2>
+
+    <p>
+        Menjadi pusat informasi dan pengembangan diri yang membantu
+        generasi muda meningkatkan kompetensi dan memperluas peluang masa depan.
     </p>
 
-</section>
+    <hr>
 
-<section class="card-section">
+    <h2>Misi Kami</h2>
 
-    <div class="card">
-
-        <h3>📚 Jurnal Ilmiah</h3>
-
-        <p>
-            Temukan berbagai jurnal nasional maupun internasional.
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <h3>📰 Publikasi</h3>
-
-        <p>
-            Lihat artikel dan berita akademik terbaru.
-        </p>
+    <ul>
+        <li>Menyediakan informasi pendidikan yang mudah diakses.</li>
+        <li>Mendukung pengembangan keterampilan mahasiswa.</li>
+        <li>Membagikan peluang akademik dan profesional.</li>
+        <li>Membangun komunitas pembelajar yang aktif dan kolaboratif.</li>
+    </ul>
 
     </div>
-
-    <div class="card">
-
-        <h3>🎓 Beasiswa</h3>
-
-        <p>
-            Informasi beasiswa untuk mahasiswa S1, S2, dan S3.
-        </p>
-
-    </div>
-
-    <div class="card">
-
-        <h3>🔬 Dana Riset</h3>
-
-        <p>
-            Peluang pendanaan penelitian bagi akademisi.
-        </p>
-
-    </div>
-
-</section>
+</div>
 
 @endsection

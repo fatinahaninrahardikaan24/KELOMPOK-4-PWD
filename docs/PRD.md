@@ -1,60 +1,60 @@
-# PRD – IAST Institute Portal
+# PRD – MiseEdu Hub
 
 ## 1. Project Overview
 
-IASTInstitute.com adalah portal resmi organisasi ilmiah yang berfungsi sebagai pusat informasi akademik dan penelitian. Platform ini menyediakan akses terhadap jurnal ilmiah, publikasi, berita akademik, informasi beasiswa, dana riset, katalog buku, produk akademik, serta informasi organisasi.
+MiseEdu Hub adalah platform edukasi digital yang berfungsi sebagai pusat informasi pembelajaran, pengembangan diri, serta peluang akademik dan karier bagi mahasiswa dan pelajar Indonesia. Platform ini menyediakan akses terhadap artikel edukatif, program pelatihan, webinar, informasi beasiswa, peluang magang, kompetisi, dan berbagai kegiatan pengembangan kompetensi.
 
-Tujuan utama sistem adalah menyediakan sumber informasi akademik yang terpusat, mudah diakses, responsif pada berbagai perangkat, dan mendukung kebutuhan mahasiswa, dosen, serta peneliti.
+Tujuan utama sistem adalah menyediakan sumber informasi yang terpusat, mudah diakses, responsif pada berbagai perangkat, serta membantu pengguna meningkatkan kemampuan akademik maupun profesional.
 
 ---
 
 ## 2. User Personas
 
-### Mahasiswa (S1/S2/S3)
+### Mahasiswa
 
-* Mencari jurnal dan referensi ilmiah.
-* Mengakses informasi beasiswa dan penelitian.
-* Membaca berita akademik terbaru.
+* Mencari artikel edukatif dan pengembangan diri.
+* Mengakses informasi program pelatihan dan webinar.
+* Menemukan peluang beasiswa, magang, dan kompetisi.
 
-### Dosen
+### Pelajar
 
-* Mengakses publikasi ilmiah.
-* Mencari informasi hibah dan dana penelitian.
-* Mengelola kontribusi artikel atau publikasi.
+* Membaca artikel pembelajaran dan motivasi.
+* Mengikuti program pengembangan keterampilan.
+* Mengetahui berbagai peluang pendidikan.
 
-### Peneliti
+### Fresh Graduate
 
-* Menemukan jurnal dan publikasi terkait.
-* Mengakses informasi riset dan kolaborasi penelitian.
-* Memanfaatkan katalog sumber akademik.
+* Mencari informasi karier dan pengembangan profesional.
+* Mengakses program pelatihan dan workshop.
+* Menemukan peluang kerja dan magang.
 
 ---
 
 ## 3. Core Features
 
-### Direktori Jurnal
+### Beranda
 
-Pengguna dapat menelusuri daftar jurnal berdasarkan kategori, bidang ilmu, dan kata kunci.
+Pengguna dapat melihat informasi utama platform, pengenalan MiseEdu Hub, serta akses cepat ke seluruh fitur yang tersedia.
 
-### Publikasi & Artikel
+### Artikel
 
-Pengguna dapat membaca artikel, publikasi ilmiah, dan informasi akademik yang dipublikasikan organisasi.
+Pengguna dapat membaca artikel mengenai pendidikan, produktivitas, pengembangan diri, dan persiapan karier.
 
-### Berita & Pengumuman
+### Program
 
-Pengguna dapat melihat berita terbaru, agenda kegiatan, pengumuman beasiswa, dan informasi dana riset.
+Pengguna dapat melihat berbagai program pelatihan, webinar, workshop, dan kegiatan pengembangan kompetensi.
 
-### Katalog Buku
+### Peluang
 
-Pengguna dapat menelusuri koleksi buku akademik beserta detail informasi dan tautan terkait.
+Pengguna dapat mengakses informasi mengenai beasiswa, magang, kompetisi, volunteer, dan peluang pengembangan lainnya.
 
-### Produk Akademik
+### Tentang Kami
 
-Pengguna dapat melihat daftar produk atau layanan akademik yang disediakan organisasi.
+Pengguna dapat mengetahui profil, visi, dan misi MiseEdu Hub.
 
 ### Halaman Kontak
 
-Pengguna dapat memperoleh informasi kontak organisasi dan mengirimkan pertanyaan melalui formulir kontak.
+Pengguna dapat memperoleh informasi kontak dan mengirimkan pertanyaan melalui formulir kontak.
 
 ---
 
@@ -67,15 +67,15 @@ Pengguna dapat memperoleh informasi kontak organisasi dan mengirimkan pertanyaan
 ### Frontend
 
 * Blade Template Engine
-* Tailwind CSS 4
+* CSS
 
 ### Database
 
-* MySQL
+* SQLite
 
 ### Dashboard Admin
 
-Rekomendasi menggunakan Laravel Filament karena memiliki performa cepat, mudah dikembangkan, serta terintegrasi dengan Laravel 12.
+Dashboard admin dapat dikembangkan untuk mengelola artikel, program, peluang, dan pesan pengguna.
 
 ### Version Control
 
@@ -88,33 +88,19 @@ Rekomendasi menggunakan Laravel Filament karena memiliki performa cepat, mudah d
 
 ### User
 
-* Memiliki banyak Artikel
-* Memiliki banyak Publikasi
-
-### Journal
-
-* Memiliki banyak Artikel
+* Mengelola konten platform
 
 ### Article
 
-* Dimiliki oleh User
-* Berelasi dengan Journal
+* Menyimpan artikel edukasi
 
-### Scholarship
+### Program
 
-* Menyimpan informasi beasiswa
+* Menyimpan data program pelatihan dan webinar
 
-### ResearchFund
+### Opportunity
 
-* Menyimpan informasi dana riset
-
-### Book
-
-* Menyimpan data katalog buku
-
-### Product
-
-* Menyimpan data produk akademik
+* Menyimpan data beasiswa, magang, kompetisi, dan volunteer
 
 ### ContactMessage
 
@@ -124,17 +110,21 @@ Rekomendasi menggunakan Laravel Filament karena memiliki performa cepat, mudah d
 
 ## 6. User Flows
 
-### Akses Direktori Jurnal
+### Membaca Artikel
 
-Beranda → Menu Jurnal → Cari Jurnal → Lihat Detail Jurnal
+Beranda → Menu Artikel → Pilih Artikel → Baca Artikel
 
-### Membaca Artikel Akademik
+### Mengakses Program
 
-Beranda → Menu Publikasi → Pilih Artikel → Baca Artikel
+Beranda → Menu Program → Pilih Program → Lihat Detail Program
 
-### Mencari Informasi Beasiswa
+### Mencari Peluang
 
-Beranda → Menu Beasiswa → Pilih Program → Lihat Detail Informasi
+Beranda → Menu Peluang → Pilih Peluang → Lihat Detail Informasi
+
+### Menghubungi Admin
+
+Beranda → Menu Kontak → Isi Formulir → Kirim Pesan
 
 ---
 

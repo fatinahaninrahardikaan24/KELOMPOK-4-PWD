@@ -209,3 +209,73 @@ nav a{
     border:none;
     border-radius:5px;
 }
+.info-card {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.info-card h2 {
+    color: #0d6efd;
+    margin-bottom: 15px;
+}
+
+.info-card ul {
+    padding-left: 20px;
+}
+
+.info-card li {
+    margin-bottom: 10px;
+}
+.info-card hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.info-card {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.contact-container{
+    width:90%;
+    max-width:1000px;
+    margin:80px auto;
+}
+.contact-container form{
+    margin-top:20px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width:100%;
+    padding:12px 15px;
+    margin-bottom:15px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.contact-container textarea{
+    resize:vertical;
+    min-height:120px;
+}
+
+.contact-container button{
+    background:#0b3d91;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+}
+
+.contact-container button:hover{
+    background:#0d6efd;
+}

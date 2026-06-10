@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('artikel');
+    return view('beranda');
 });
 
 Route::get('/artikel', function () {
