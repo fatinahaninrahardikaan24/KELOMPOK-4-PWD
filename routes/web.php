@@ -3,19 +3,23 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('artikel');
 });
 
-Route::get('/jurnal', function () {
-    return view('jurnal');
+Route::get('/artikel', function () {
+    return view('artikel');
 });
 
-Route::get('/publikasi', function () {
-    return view('publikasi');
+Route::get('/program', function () {
+    return view('program');
 });
 
-Route::get('/beasiswa', function () {
-    return view('beasiswa');
+Route::get('/peluang', function () {
+    return view('peluang');
+});
+
+Route::get('/tentang', function () {
+    return view('tentang');
 });
 
 Route::get('/kontak', function () {
