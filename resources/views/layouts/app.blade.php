@@ -16,7 +16,7 @@
         <nav>
             <a href="/">Beranda</a>
             <a href="/artikel">Artikel</a>
-            <a href="/program">Program</a>
+            <a href="{{ route('programs.index') }}">Program</a>
             <a href="/peluang">Peluang</a>
             <a href="/tentang">Tentang Kami</a>
             <a href="/kontak">Kontak</a>

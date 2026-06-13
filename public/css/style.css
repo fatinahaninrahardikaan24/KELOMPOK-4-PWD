@@ -3,11 +3,12 @@
     padding:0;
     box-sizing:border-box;
     font-family:'Segoe UI',sans-serif;
-}
 
+}
 body{
     background:#f4f7fb;
     color:#333;
+    
 }
 
 header{
@@ -24,6 +25,8 @@ header{
     width:90%;
     max-width:1200px;
     margin:auto;
+}
+header .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -241,41 +244,74 @@ nav a{
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 .contact-container{
     width:90%;
-    max-width:1000px;
+    max-width:600px;
     margin:80px auto;
+    text-align:center;
 }
+
 .contact-container form{
-    margin-top:20px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   margin-top:20px;
+}
+
+.contact-container label{
+   margin-bottom:10px;
+font-weight:bold;
 }
 
 .contact-container input,
 .contact-container textarea{
-    width:100%;
-    padding:12px 15px;
-    margin-bottom:15px;
-    border:1px solid #ddd;
-    border-radius:8px;
-    font-size:16px;
+width:100%;
+max-width:500px;
+padding:12px 15px;
+margin-bottom:20px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:16px;
 }
 
 .contact-container textarea{
-    resize:vertical;
-    min-height:120px;
+resize:vertical;
+min-height:120px;
 }
 
 .contact-container button{
-    background:#0b3d91;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-    font-weight:600;
+background:#0b3d91;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:8px;
+cursor:pointer;
+font-size:16px;
+font-weight:600;
+margin-top:10px;
 }
 
 .contact-container button:hover{
-    background:#0d6efd;
+background:#0d6efd;
+}
+
+main{
+min-height: calc(100vh - 180px);
+padding-top:30px;
+}
+
+.program-page{
+    width:90%;
+    max-width:1200px;
+    margin:120px auto 50px auto;
+    padding:40px;
+    background:#0b3d91;
+    border-radius:20px;
+    text-align:center;
+}
+
+.program-page h1{
+    color: white;
+   margin-bottom:20px;
 }
